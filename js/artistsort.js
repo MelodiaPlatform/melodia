@@ -1,25 +1,25 @@
 var songs = [
-    { artist: 'Peter A', genre: 'RocknRock', song: 'ABC', price: '1.99ETH', photo: '../album/1.jpg',location:'Duck cafe', type:'peterA' },
-    { artist: 'Peter B', genre: 'Blues', song: 'CDE', price: '5.99ETH', photo: '../album/2.jpg' ,location:'Mouse', type:'peterB'},
-    { artist: 'Peter C', genre: 'Blues', song: 'EFG', price: '15.99ETH', photo: '../album/3.jpg' ,location:'Dolphin cafe', type:'peterC'},
-    { artist: 'Peter D', genre: 'Pop', song: 'HIJ', price: '2.99ETH', photo: '../album/4.jpg' ,location:'Lobster cafe', type:'peterD'},
-    { artist: 'Peter D', genre: 'Jazz', song: 'QWE', price: '5.99ETH', photo: '../album/5.jpg' ,location:'Oyster cafe' , type:'peterD'},
-    { artist: 'Peter B', genre: 'Pop', song: 'RTY', price: '8.99ETH', photo: '../album/6.jpg',location:'Shrimp cafe', type:'peterB' },
-    { artist: 'Peter C', genre: 'RocknRock', song: 'gfg', price: '2.99ETH', photo: '../album/7.jpg' ,location:'Frog cafe', type:'peterC'},
-    { artist: 'Peter A', genre: 'Jazz', song: 'vnn', price: '2.99ETH', photo: '../album/8.jpg',location:'Bear cafe', type:'peterA' },
-    { artist: 'Peter B', genre: 'Blues', song: 'nnv', price: '15.99ETH', photo: '../album/9.jpg' ,location:'Owl cafe', type:'peterB'},
-    { artist: 'Peter D', genre: 'RocknRock', song: 'fdr', price: '5.99ETH', photo: '../album/10.jpg',location:'Cat cafe' , type:'peterD'},
-    { artist: 'Peter D', genre: 'Pop', song: 'htdf', price: '8.99ETH', photo: '../album/11.jpg',location:'Dog cafe', type:'peterD' },
-    { artist: 'Peter A', genre: 'Pop', song: 'fhg', price: '2.99ETH', photo: '../album/12.jpg',location:'Bird cafe' , type:'peterA'},
-    { artist: 'Peter B', genre: 'Blues', song: 'fgh', price: '5.99ETH', photo: '../album/13.jpg' ,location:'Tiger cafe', type:'peterB'},
-    { artist: 'Peter D', genre: 'RocknRock', song: 'fgh', price: '2.99ETH', photo: '../album/14.jpg',location:'Lion cafe', type:'peterD' },
-    { artist: 'Peter C', genre: 'RocknRock', song: 'rty', price: '15.99ETH', photo: '../album/15.jpg' ,location:'Elephant cafe', type:'peterC'},
-    { artist: 'Peter B', genre: 'Jazz', song: 'iuy', price: '5.99ETH', photo: '../album/16.jpg' ,location:'Rabbit cafe', type:'peterB'},
-    { artist: 'Peter A', genre: 'Pop', song: 'jkl', price: '8.99ETH', photo: '../album/17.jpg' ,location:'Hamster cafe', type:'peterA'},
-    { artist: 'Peter C', genre: 'Blues', song: 'msd', price: '2.99ETH', photo: '../album/18.jpg',location:'Fish cafe' , type:'peterC'},
-    { artist: 'Peter A', genre: 'Jazz', song: 'bmn', price: '8.99ETH', photo: '../album/19.jpg',location:'Butterfly cafe', type:'peterA' },
-    { artist: 'Peter B', genre: 'Jazz', song: 'try', price: '15.99ETH', photo: '../album/20.jpg',location:'Bee cafe' , type:'peterB'}
-  ];
+  { artist: 'Peter A', genre: 'RocknRock', song: 'ABC', price: '1.99ETH', photo: './album/1.jpg',location:'Duck cafe', type:'rocknroll' },
+  { artist: 'Peter B', genre: 'Blues', song: 'CDE', price: '5.99ETH', photo: './album/2.jpg' ,location:'Mouse', type:'blues'},
+  { artist: 'Peter C', genre: 'Blues', song: 'EFG', price: '15.99ETH', photo: './album/3.jpg' ,location:'Dolphin cafe', type:'blues'},
+  { artist: 'Peter D', genre: 'Pop', song: 'HIJ', price: '2.99ETH', photo: './album/4.jpg' ,location:'Lobster cafe', type:'pop'},
+  { artist: 'Mary A', genre: 'Jazz', song: 'QWE', price: '5.99ETH', photo: './album/5.jpg' ,location:'Oyster cafe' , type:'jazz'},
+  { artist: 'Mary B', genre: 'Pop', song: 'RTY', price: '8.99ETH', photo: './album/6.jpg',location:'Shrimp cafe', type:'pop' },
+  { artist: 'Mary C', genre: 'RocknRock', song: 'gfg', price: '2.99ETH', photo: './album/7.jpg' ,location:'Frog cafe', type:'rocknroll'},
+  { artist: 'Mary D', genre: 'Jazz', song: 'vnn', price: '2.99ETH', photo: './album/8.jpg',location:'Bear cafe', type:'jazz' },
+  { artist: 'May A', genre: 'Blues', song: 'nnv', price: '15.99ETH', photo: './album/9.jpg' ,location:'Owl cafe', type:'blues'},
+  { artist: 'May B', genre: 'RocknRock', song: 'fdr', price: '5.99ETH', photo: './album/10.jpg',location:'Cat cafe' , type:'rocknroll'},
+  { artist: 'May C', genre: 'Pop', song: 'htdf', price: '8.99ETH', photo: './album/11.jpg',location:'Dog cafe', type:'pop' },
+  { artist: 'May D', genre: 'Pop', song: 'fhg', price: '2.99ETH', photo: './album/12.jpg',location:'Bird cafe' , type:'pop'},
+  { artist: 'John A', genre: 'Blues', song: 'fgh', price: '5.99ETH', photo: './album/13.jpg' ,location:'Tiger cafe', type:'blues'},
+  { artist: 'John B', genre: 'RocknRock', song: 'fgh', price: '2.99ETH', photo: './album/14.jpg',location:'Lion cafe', type:'rocknroll' },
+  { artist: 'John C', genre: 'RocknRock', song: 'rty', price: '15.99ETH', photo: './album/15.jpg' ,location:'Elephant cafe', type:'rocknroll'},
+  { artist: 'John D', genre: 'Jazz', song: 'iuy', price: '5.99ETH', photo: './album/16.jpg' ,location:'Rabbit cafe', type:'jazz'},
+  { artist: 'Chris A', genre: 'Pop', song: 'jkl', price: '8.99ETH', photo: './album/17.jpg' ,location:'Hamster cafe', type:'pop'},
+  { artist: 'Chris B', genre: 'Blues', song: 'msd', price: '2.99ETH', photo: './album/18.jpg',location:'Fish cafe' , type:'blues'},
+  { artist: 'Chris C', genre: 'Jazz', song: 'bmn', price: '8.99ETH', photo: './album/19.jpg',location:'Butterfly cafe', type:'jazz' },
+  { artist: 'Chris D', genre: 'Jazz', song: 'try', price: '15.99ETH', photo: './album/20.jpg',location:'Bee cafe' , type:'jazz'}
+];
 
 
 document.addEventListener('DOMContentLoaded', function() {
