@@ -3,12 +3,16 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-image: url('/bg.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
   background-color: #333;
   color: #fff;
   padding: 20px;
+  
 }
 
 h1 {
@@ -21,7 +25,7 @@ main {
 
 .login-form {
   max-width: 300px;
-  margin: 250px auto;
+  margin: 150px auto;
 }
 
 .login-form input[type="text"],
@@ -39,9 +43,6 @@ main {
   cursor: pointer;
 }
 
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
+.name{
+  color: white;
 }

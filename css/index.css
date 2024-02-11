@@ -3,6 +3,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-image: url('/bg.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
@@ -36,15 +39,8 @@ main {
   margin-top: 0;
 }
 
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
 .top{
-  margin: 150px auto;
+  margin: 20px auto;
   text-align: center;
 }
 
@@ -55,4 +51,5 @@ footer {
 .title{
   font-size: 50px;
   font-weight: bold;
+  color: white;
 }

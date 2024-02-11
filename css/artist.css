@@ -1,3 +1,10 @@
+
+body{
+  background-image: url('/bg.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .artist-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -11,7 +18,7 @@
   .artist-name {
     font-weight: bold;
     margin-top: 10px;
-    color: black;
+    color: rgb(255, 255, 255);
   }
 
   
@@ -22,6 +29,18 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   }
 
+ 
   .top{
-    margin: 150px auto;
+    margin: 20px auto;
+  }
+
+  body{
+    background-image: url('/bg.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .title{
+    color: white;
+    text-align: center;
   }
