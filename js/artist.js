@@ -1,8 +1,8 @@
 var artists = [
-    { name: 'Peter A', photo: './album/1.jpg' , page: "./artistpage/peterA.html" },
-    { name: 'Peter B',  photo: './album/2.jpg', page: "./artistpage/peterB.html" },
-    { name: 'Peter C',  photo: './album/3.jpg', page: "./artistpage/peterC.html"  },
-    { name: 'Peter D',  photo: './album/4.jpg', page: "./artistpage/peterD.html" }
+    { name: 'Peter A', photo: './album/1.jpg' , page: "../melodia/artistpage/peterA.html" },
+    { name: 'Peter B',  photo: './album/2.jpg', page: "../melodia/artistpage/peterB.html" },
+    { name: 'Peter C',  photo: './album/3.jpg', page: "../melodia/artistpage/peterC.html"  },
+    { name: 'Peter D',  photo: './album/4.jpg', page: "../melodia/artistpage/peterD.html" }
   ];
   
   var artistGallery = document.querySelector('.artist-gallery');

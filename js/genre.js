@@ -1,8 +1,8 @@
 var genres = [
-    { name: 'Jazz', photo: './album/4.jpg' , page: "./genrepage/jazz.html" },
-    { name: 'Blues',  photo: './album/5.jpg', page: "./genrepage/blues.html" },
-    { name: 'RocknRoll',  photo: './album/6.jpg', page: "./genrepage/rocknroll.html"  },
-    { name: 'Pop',  photo: './album/7.jpg', page: "./genrepage/pop.html" }
+    { name: 'Jazz', photo: './album/4.jpg' , page: "../melodia/genrepage/jazz.html" },
+    { name: 'Blues',  photo: './album/5.jpg', page: "../melodia/genrepage/blues.html" },
+    { name: 'RocknRoll',  photo: './album/6.jpg', page: "../melodia/genrepage/rocknroll.html"  },
+    { name: 'Pop',  photo: './album/7.jpg', page: "../melodia/genrepage/pop.html" }
   ];
   
   var genreGallery = document.querySelector('.genre-gallery');
